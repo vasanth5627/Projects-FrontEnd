@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500;700&family=Cedarville+Cursive&family=Exo:wght@300;400;500;700;800&family=Inter:wght@300;400;700;800&family=Lora:wght@400;500;700&family=Marck+Script&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&family=Roboto+Mono:ital@1&family=Roboto:wght@100;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+body{
+  background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,53,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.header{
+    font-family: 'Cedarville Cursive', cursive, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 10%;
+}
+.header p{
+    font-size: 3rem;
+}
+
+.content{
+    margin: 0 auto;
+    font-family: 'Marck Script', cursive;
+    width: 90%;
+    
+}
+
+.card{
+    margin-bottom: 5em;
+    border: 1px solid black;
+    padding: 10em;
+    text-align: center;
+    border-radius: 10px;
+    font-size: .5rem;
+    
+    
+}
+
+.card blockquote q{
+    font-size: 1.5rem;
+    word-wrap: wrap;   
+    text-align: center;
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 10px 10px 8px #888888;
+    cursor: pointer;
+}
+
+.header p:hover{
+    text-shadow: 2px 2px white;
+    cursor: pointer;
+}
