@@ -99,7 +99,7 @@ button:hover{
     text-align: center;
 }
 
-.card:hover{
+.card:hover, .card:active{
     margin-bottom: 5em;
     border: 1px solid black;
     padding: 10em;
@@ -115,6 +115,12 @@ button:hover{
 
 
 .header p:hover{
+    
+    color: red;
+    transform: scale(1.05);
+}
+
+header p:active{
     
     color: red;
     transform: scale(1.05);
